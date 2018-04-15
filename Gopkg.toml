@@ -82,3 +82,7 @@ ignored = [
 [[constraint]]
   name = "google.golang.org/grpc"
   version = "1.11.3"
+
+[[constraint]]
+  name = "github.com/gogits/gogs"
+  version = "0.11.43"
