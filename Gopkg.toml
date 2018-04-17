@@ -86,3 +86,11 @@ ignored = [
 [[constraint]]
   name = "github.com/gogits/gogs"
   version = "0.11.43"
+
+[[constraint]]
+  name = "github.com/ServiceComb/go-chassis"
+  branch = "master"
+  
+[[constraint]]
+  name = "github.com/micro/micro"
+  branch = "master" 
