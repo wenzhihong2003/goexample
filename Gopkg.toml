@@ -94,3 +94,7 @@ ignored = [
 [[constraint]]
   name = "github.com/micro/micro"
   branch = "master" 
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/golang/glog"
