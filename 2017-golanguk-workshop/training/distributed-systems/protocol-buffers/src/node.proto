@@ -1,0 +1,18 @@
+syntax = "proto3";
+package services;
+
+message Node {
+  string uuid = 1; // Universally Unique ID for this node
+  string uri = 2; // URI to access this resource
+  int64 updatedAt = 3;
+}
+
+message service {
+  enum ServiceType {
+    MasterPrimary = 0;
+    MasterSecondary = 1;
+  }
+  string name = 1; // The name of the service
+  ServiceType type = 2;
+  repeated Node = 3;
+}

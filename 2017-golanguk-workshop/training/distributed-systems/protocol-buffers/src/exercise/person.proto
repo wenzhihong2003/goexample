@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+package tutorial;
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+  map<string, string> preferences = 3;
+  repeated string kids = 4;
+  google.protobuf.Timestamp birthdate = 5;
+}

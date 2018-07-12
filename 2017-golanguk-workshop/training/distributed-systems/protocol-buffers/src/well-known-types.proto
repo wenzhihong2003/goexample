@@ -1,0 +1,6 @@
+import "google/protobuf/timestamp.proto";
+
+message NamedStruct {
+	string name = 1;
+	google.protobuf.Timestamp last_modified = 2;
+}

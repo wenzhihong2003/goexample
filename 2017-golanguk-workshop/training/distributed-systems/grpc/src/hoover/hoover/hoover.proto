@@ -1,0 +1,19 @@
+syntax = "proto3";
+package hoover;
+import "google/protobuf/duration.proto";
+
+service Service {
+	rpc Get (GetRequest) returns (GetReply) {}
+}
+
+message GetRequest {
+	string url = 1;
+}
+
+message GetReply {
+	int32 response_code = 1;
+	string body = 2;
+	google.protobuf.Duration elapsed =3;
+}
+	
+

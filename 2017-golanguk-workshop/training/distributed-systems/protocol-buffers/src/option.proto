@@ -1,0 +1,3 @@
+package example.high_score;
+option go_package = "hs";
+

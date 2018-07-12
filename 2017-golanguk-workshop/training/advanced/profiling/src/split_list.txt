@@ -1,0 +1,38 @@
+(pprof) list strings.genSplit
+Total: 1.17s
+ROUTINE ======================== strings.genSplit in /usr/local/Cellar/go/1.8.3/libexec/src/strings/strings.go
+     280ms      1.10s (flat, cum) 94.02% of Total
+         .          .    228:   return -1
+         .          .    229:}
+         .          .    230:
+         .          .    231:// Generic split: splits after each instance of sep,
+         .          .    232:// including sepSave bytes of sep in the subarrays.
+      10ms       10ms    233:func genSplit(s, sep string, sepSave, n int) []string {
+      10ms       10ms    234:   if n == 0 {
+         .          .    235:           return nil
+         .          .    236:   }
+         .          .    237:   if sep == "" {
+         .          .    238:           return explode(s, n)
+         .          .    239:   }
+         .          .    240:   if n < 0 {
+         .      200ms    241:           n = Count(s, sep) + 1
+         .          .    242:   }
+         .          .    243:   c := sep[0]
+         .          .    244:   start := 0
+         .      620ms    245:   a := make([]string, n)
+         .          .    246:   na := 0
+     110ms      110ms    247:   for i := 0; i+len(sep) <= len(s) && na+1 < n; i++ {
+      60ms       60ms    248:           if s[i] == c && (len(sep) == 1 || s[i:i+len(sep)] == sep) {
+      70ms       70ms    249:                   a[na] = s[start : i+sepSave]
+         .          .    250:                   na++
+         .          .    251:                   start = i + len(sep)
+         .          .    252:                   i += len(sep) - 1
+         .          .    253:           }
+         .          .    254:   }
+      20ms       20ms    255:   a[na] = s[start:]
+         .          .    256:   return a[0 : na+1]
+         .          .    257:}
+         .          .    258:
+         .          .    259:// SplitN slices s into substrings separated by sep and returns a slice of
+         .          .    260:// the substrings between those separators.
+

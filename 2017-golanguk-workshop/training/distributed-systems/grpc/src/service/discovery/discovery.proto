@@ -1,0 +1,59 @@
+syntax = "proto3";
+package discovery;
+import "google/protobuf/timestamp.proto";
+
+enum ServiceType {
+	MasterMaster = 0;
+	MasterSlave = 1;
+}
+
+message Node {
+	string UUID = 1; // Universally Unique ID for this node
+	string URI = 2; // URI to access this resource
+	bool leader = 3;
+	google.protobuf.Timestamp heartbeat = 4;
+	google.protobuf.Timestamp updated_at = 5;
+}
+
+message Service {
+	string name = 1; // the name of the service
+	ServiceType type = 2;
+	repeated Node nodes = 3; // the nodes in the service
+}
+
+service Discovery {
+	rpc Register (RegistrationRequest) returns (RegistrationReply) {}
+	rpc Heartbeat (HeartbeatRequest) returns (HeartbeatReply) {}
+	rpc List(ListRequest) returns (ListReply) {}
+}
+
+message RegistrationRequest {
+	string UUID = 1; // the UUID of the service
+	string URI = 2 ; // the URI of the service
+	string name = 3; // The name of the service
+	ServiceType type = 4;
+	bool leader = 5;
+}
+
+message RegistrationReply {
+	bool success = 1;
+	string name = 2; // name of service
+	repeated Node node = 3; // Current nodes for this type of service
+}
+
+message HeartbeatRequest {
+	string uuid = 1;
+	string uri = 2;
+}
+
+message HeartbeatReply {
+	bool success =1;
+}
+
+message ListRequest {
+	string name = 1;
+}
+
+message ListReply {
+	map<string, Service> services = 1;
+}
