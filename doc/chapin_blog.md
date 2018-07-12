@@ -159,3 +159,15 @@
 ### PHP
 >>> #### 工具
 - [宝塔面板](https://www.bt.cn)
+
+### 网络
+
+- [调试利器-SSH隧道](https://github.com/gwuhaolin/blog/issues/11)  
+- [你也能写个 Shadowsocks](https://github.com/gwuhaolin/blog/issues/12)
+- [四层、七层负载均衡的区别](https://mp.weixin.qq.com/s/9POrwe3jrE1kChps6r-osQ?)  
+
+### 前端
+
+- [使用HeadlessChrome做单页应用SEO](https://github.com/gwuhaolin/blog/issues/8)  
+- [基于HeadlessChrome的网页自动化测试系统-FinalTest](https://github.com/gwuhaolin/blog/issues/7)  
+- 
