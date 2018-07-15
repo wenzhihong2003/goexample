@@ -1,4 +1,4 @@
-package main
+package gctt
 
 import (
 	"context"
@@ -11,6 +11,9 @@ import (
 
 // 在 Go 中用 Context 取消操作
 // https://github.com/studygolang/GCTT/blob/master/translated/tech/20180617-Using-context-cancellation-in-Go.md
+
+// 理解 golang 中的 context（上下文） 包
+// https://github.com/studygolang/GCTT/blob/master/translated/tech/20180708-Understanding-the-context-package-in-golang.md
 
 func main() {
 	c1()

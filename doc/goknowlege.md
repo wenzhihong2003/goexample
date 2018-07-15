@@ -2,6 +2,9 @@
 - [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)  
 
 ### 学习golang
+- [Go Slice vs Map](https://github.com/studygolang/GCTT/blob/master/published/tech/20171120-Go-Slice-vs-Maps.md)  
+- [图解 Go 中的延迟调用 defer](https://studygolang.com/articles/11907)  
+- [Learn Go with tests中文](https://studygolang.gitbook.io/learn-go-with-tests)  
 - [Golang 中文学习资料](https://go.wuhaolin.cn/)  
 - [golangprograms](http://www.golangprograms.com/)    
 - [go101](https://go101.org/)  https://github.com/go101/go101
@@ -106,6 +109,9 @@
 - [Go 语言机制之内存剖析](https://studygolang.com/articles/12445) 
 - [Go 语言机制之数据和语法的设计哲学](https://studygolang.com/articles/12487)  
 - [Golang 中的并发限制与超时控制](https://my.oschina.net/u/3771209/blog/1620498)  
+- [leaf 和cocos creator 游戏实战（一）使用protobuf完成通讯](https://www.jianshu.com/p/1598bde2bb97)  
+- [golang fmt占位符](https://www.cnblogs.com/Csir/p/9309702.html)  
+- 
 
 ### 鸟窝系列blog
 - [使用os/exec执行命令](http://colobu.com/2017/06/19/advanced-command-execution-in-Go-with-os-exec/)  
