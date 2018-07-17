@@ -1,6 +1,10 @@
 ### linux
 - [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)  
 
+### 指针
+- [Golang学习 - unsafe 包](https://www.cnblogs.com/golove/p/5909968.html)
+- [Golang学习 - reflect 包](https://www.cnblogs.com/golove/p/5909541.html)
+
 ### 学习golang
 - [Go Slice vs Map](https://github.com/studygolang/GCTT/blob/master/published/tech/20171120-Go-Slice-vs-Maps.md)  
 - [图解 Go 中的延迟调用 defer](https://studygolang.com/articles/11907)  
