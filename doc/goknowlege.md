@@ -6,6 +6,16 @@
 - [Golang学习 - reflect 包](https://www.cnblogs.com/golove/p/5909541.html)
 
 ### 学习golang
+- [如何设计并实现一个线程安全的 Map ？(上篇)](https://halfrost.com/go_map_chapter_one/)
+- [如何设计并实现一个线程安全的 Map ？(下篇)](https://halfrost.com/go_map_chapter_two/)
+- [深入解析 Go 中 Slice 底层实现](https://halfrost.com/go_slice/)
+- [初探 Go 的编译命令执行过程](https://halfrost.com/go_command/)
+- [Google S2 是如何解决空间覆盖最优解问题的?](https://halfrost.com/go_s2_regioncoverer/)
+- [四叉树上如何求希尔伯特曲线的邻居](https://halfrost.com/go_s2_hilbert_neighbor/)
+- [Google S2 中的 CellID 是如何生成的 ？](https://halfrost.com/go_s2_cellid/)
+- [神奇的德布鲁因序列](https://halfrost.com/go_s2_de_bruijn/)
+- [Google S2 中的四叉树求 LCA 最近公共祖先](https://halfrost.com/go_s2_lowest_common_ancestor/)
+- [高效的多维空间点索引算法 — Geohash 和 Google S2](https://halfrost.com/go_spatial_search/)
 - [Go Slice vs Map](https://github.com/studygolang/GCTT/blob/master/published/tech/20171120-Go-Slice-vs-Maps.md)  
 - [图解 Go 中的延迟调用 defer](https://studygolang.com/articles/11907)  
 - [Learn Go with tests中文](https://studygolang.gitbook.io/learn-go-with-tests)  
@@ -175,7 +185,16 @@
 - [Goroutine并发调度模型深度解析之手撸一个协程池](https://segmentfault.com/a/1190000015464889)  
 - [深入golang之---goroutine并发控制与通信](https://segmentfault.com/a/1190000015564216)  
 - [Go - Channel 原理](https://segmentfault.com/a/1190000000507018)  
-- 
+
+### 项目
+
+**进程锁** 用于控制只能启动一个实例的情况
+[windows版本的](https://github.com/rodolfoag/gow32), [跨平台版本的](https://github.com/alexflint/go-filemutex), [相关知识](https://www.google.co.jp/search?source=hp&ei=u_lPW9r9C8HR9AP-55GoDA&q=go+syscall+windows+mutex&oq=go+syscall+windows+mutex&gs_l=psy-ab.3...528.528.0.856.0.0.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..0.0.0....0.Z75hS5aY1Fg)
+
+**golang err 处理**
+[Golang errors with stacktrace and context](https://github.com/ansel1/merry)
+
+
 
 ### golang设计模式
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns)  
