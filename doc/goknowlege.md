@@ -279,7 +279,24 @@
 - [Go语言对象跟闭包性能比较](http://www.zenlife.tk/object-vs-closure-performance.md)  
 - [Goroutine并发调度模型深度解析之手撸一个协程池](https://segmentfault.com/a/1190000015464889)  
 - [深入golang之---goroutine并发控制与通信](https://segmentfault.com/a/1190000015564216)  
-- [Go - Channel 原理](https://segmentfault.com/a/1190000000507018)  
+- [Go - Channel 原理](https://segmentfault.com/a/1190000000507018)
+- [Listing interfaces with Go AST for gomock/moq](https://scene-si.org/2018/06/19/listing-interfaces-with-go-ast-for-gomock-moq/)
+- [Handling HTTP requests with go-chi](https://scene-si.org/2018/03/12/handling-http-requests-with-go-chi/)
+- [An argument for value receiver constructors](https://scene-si.org/2018/03/08/an-argument-for-value-receiver-constructors/)
+- [Go tips and tricks: almost everything about imports](https://scene-si.org/2018/01/25/go-tips-and-tricks-almost-everything-about-imports/)
+- [Error handling in Go](https://scene-si.org/2017/11/13/error-handling-in-go/)
+- [Things to know about HTTP in Go](https://scene-si.org/2017/09/27/things-to-know-about-http-in-go/)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 ### 项目
 
@@ -289,9 +306,24 @@
 **golang err 处理**
 [Golang errors with stacktrace and context](https://github.com/ansel1/merry)
 
-[V2Ray 帮助你打造专属的定制网络体系](https://www.v2ray.com/)
-[liftbridge Lightweight, fault-tolerant message streams.](https://github.com/liftbridge-io/liftbridge)
-
+##### 其它
+- [V2Ray 帮助你打造专属的定制网络体系](https://www.v2ray.com/)
+- [liftbridge Lightweight, fault-tolerant message streams.](https://github.com/liftbridge-io/liftbridge)
+- [csvquery Query CSV files with SQL.](https://github.com/erizocosmico/csvquery)
+- [go-mysql-server An extensible MySQL server implementation in Go](https://github.com/src-d/go-mysql-server)
+- [gitbase SQL interface to Git repositories](https://github.com/src-d/gitbase)
+- [siva - seekable indexed block archiver ](https://github.com/src-d/go-siva)
+- [go-billy The missing interface filesystem abstraction for Go](https://github.com/src-d/go-billy)
+- [go-kallax is a PostgreSQL typesafe ORM for the Go language.](https://github.com/src-d/go-kallax)
+- [go-queue Queue is a generic interface to abstract the details of implementation of queue systems](https://github.com/src-d/go-queue)
+- [go-ewah EWAH bitmap compression library for Go.](https://github.com/erizocosmico/go-ewah)
+- [noise A decentralized P2P networking stack written in Go.](https://github.com/perlin-network/noise)
+- [rollbar-go 用于在线报告应用出错](https://github.com/rollbar/rollbar-go)
+- [participle A parser library for Go](https://github.com/alecthomas/participle)
+- [chroma A general purpose syntax highlighter in pure Go](https://github.com/alecthomas/chroma)
+- [GoLLRB A Left-Leaning Red-Black (LLRB) implementation of balanced binary search trees for Google Go. 可很好的用于实现优先级队列](https://github.com/petar/GoLLRB)
+- []()
+- []()
 
 
 ### golang设计模式
@@ -312,7 +344,12 @@
 - [Java Stream 详解](http://colobu.com/2016/03/02/Java-Stream/)  
 - [NIO系列——之TCP探秘](https://my.oschina.net/u/1859679/blog/1835423)  
 - [NIO系列——之IO模型](https://my.oschina.net/u/1859679/blog/1839169)  
-- [NIO系列——之Reactor模型](https://my.oschina.net/u/1859679/blog/1844109)  
+- [NIO系列——之Reactor模型](https://my.oschina.net/u/1859679/blog/1844109)
+- [Introduce to Eclipse Vert.x](https://medium.com/@hakdogan/introduce-to-eclicpse-vert-x-1d24c97643c7)
+- [How to Work With Multiple Verticles and Communication in Vert.x](https://medium.com/@hakdogan/working-with-multiple-verticles-and-communication-between-them-in-vert-x-2ed07e8e6425)
+- [Vert.x 官方文档中文翻译](https://vertxchina.github.io/vertx-translation-chinese/)
+- []()
+- []()
 
 ### 小知识
 
