@@ -125,7 +125,6 @@
 - [让 Go 很容易手写 Parser](https://zhuanlan.zhihu.com/p/34161576)
 - [把 Go 的函数转换成 interface](https://zhuanlan.zhihu.com/p/34567697)
 - [如何提高代码的可读性](https://zhuanlan.zhihu.com/p/34982747)
-- []()
 
 ### 优秀blog
 - [Go and memory layout](https://syslog.ravelin.com/go-and-memory-layout-6ef30c730d51)  
@@ -316,7 +315,10 @@
 [windows版本的](https://github.com/rodolfoag/gow32), [跨平台版本的](https://github.com/alexflint/go-filemutex), [相关知识](https://www.google.co.jp/search?source=hp&ei=u_lPW9r9C8HR9AP-55GoDA&q=go+syscall+windows+mutex&oq=go+syscall+windows+mutex&gs_l=psy-ab.3...528.528.0.856.0.0.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..0.0.0....0.Z75hS5aY1Fg)
 
 **golang err 处理**
-[Golang errors with stacktrace and context](https://github.com/ansel1/merry)
+- [Golang errors with stacktrace and context](https://github.com/ansel1/merry)
+- [mangos package mangos is an implementation in pure Go of the SP ("Scalable Protocols") protocols  一个类似于zmq的通讯库](https://github.com/nanomsg/mangos)
+- [BoomFilters Probabilistic data structures for processing continuous, unbounded streams.](https://github.com/tylertreat/BoomFilters)
+
 
 ##### 其它
 - [V2Ray 帮助你打造专属的定制网络体系](https://www.v2ray.com/)

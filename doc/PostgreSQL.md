@@ -19,3 +19,13 @@ PostgreSQL
 - []()
 - []()
 - []()
+
+
+### Apache Pulsar 消息系统与流式计算
+
+- [下一代分布式消息队列Apache Pulsar从入门到实现](https://github.com/aCoder2013/blog/issues/23)
+- [Apache Pulsar简介](http://www.cnblogs.com/hzmark/p/pulsar.html)
+- [消息传输的设计方式：不单是消息或存储](https://zhuanlan.zhihu.com/p/30865021)
+- []()
+- []()
+- []()
