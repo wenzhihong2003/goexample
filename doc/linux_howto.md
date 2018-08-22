@@ -1,3 +1,8 @@
+### 工具
+- [multitail](http://einverne.github.io/post/2016/02/multitail.html) 可在一个终端中同时跟踪多个文件. 类似于tail  [MultiTail - 在单个Linux终端中同时监视多个文件](https://www.howtoing.com/view-multiple-files-in-linux)
+- [ubuntu18.04 包搜索](https://packages.ubuntu.com/bionic/) 可以找到相应的包
+- [ubuntu18.04 所有包简介](https://packages.ubuntu.com/bionic/allpackages?format=txt.gz)
+
 ### linux
 - [How to log dropped connections from iptables firewall using netfilter userspace logging daemon](https://blog.sleeplessbeastie.eu/2018/08/01/how-to-log-dropped-connections-from-iptables-firewall-using-netfilter-userspace-logging-daemon/)
 - [How to calculate how fast data is copied to the specified directory](https://blog.sleeplessbeastie.eu/2018/07/30/how-to-calculate-how-fast-data-is-copied-to-the-specified-directory/)
