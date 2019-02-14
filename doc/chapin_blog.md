@@ -171,3 +171,17 @@
 - [使用HeadlessChrome做单页应用SEO](https://github.com/gwuhaolin/blog/issues/8)  
 - [基于HeadlessChrome的网页自动化测试系统-FinalTest](https://github.com/gwuhaolin/blog/issues/7)  
 - 
+
+### shell
+- [Bash 脚本 set 命令教程](http://www.ruanyifeng.com/blog/2017/11/bash-set.html)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()

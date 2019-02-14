@@ -29,3 +29,22 @@ PostgreSQL
 - []()
 - []()
 - []()
+
+
+### mysql
+
+- [我必须得告诉大家的MySQL优化原理](https://mp.weixin.qq.com/s?__biz=MzAxNjk4ODE4OQ==&mid=2247484551&idx=1&sn=d52692cfa3438e94a77f436c8bf1931d&chksm=9bed25f5ac9aace336437bc590ff3a6672c7c848d0660512c6d615d26212234215df76a11b03&mpshare=1&scene=23&srcid=1018eTFlO1qAdyxmdWdm7i3A#rd)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
