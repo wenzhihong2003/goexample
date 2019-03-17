@@ -1,6 +1,51 @@
 ### linux
 - [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)  
 
+### golang 调试
+- [Debugging with GoLand – Getting Started](https://blog.jetbrains.com/go/2019/02/06/debugging-with-goland-getting-started/)
+- [Debugging with GoLand – Essentials](https://blog.jetbrains.com/go/2019/02/14/debugging-with-goland-essentials/)
+- [Debugging in GoLand – Improvements in 2019.1](https://blog.jetbrains.com/go/2019/02/21/debugging-in-goland-improvements-in-2019-1/)
+- [Debugging with GoLand – Advanced Debugging features](https://blog.jetbrains.com/go/2019/03/04/debugging-with-goland-advanced-debugging-features/)
+- [为初学者介绍的 Linux tee 命令](https://zhuanlan.zhihu.com/p/34510815)
+- [Debugging in GoLand – Windows minidumps](https://blog.jetbrains.com/go/2019/03/13/debugging-in-goland-windows-minidumps/)
+- [Enable coredump on ubuntu 16.04](https://blog.monsterxx03.com/2017/07/15/enable-coredump-on-ubuntu-16.04/)
+- [调试Go语言的核心转储（Core Dumps）](https://segmentfault.com/a/1190000010684345)
+- [CoreDumpDebugging golang](https://github.com/golang/go/wiki/CoreDumpDebugging)
+- [golang coredump 的相应值](https://github.com/golang/go/commit/5146a93e72e870b06150c5419e1b83056ecc697b)
+- [Go Post-mortem](https://fntlnz.wtf/post/gopostmortem/)
+- [Working with Go Modules](https://blog.jetbrains.com/go/2019/01/22/working-with-go-modules/)
+- [Refactorings in GoLand: Change Signature](https://blog.jetbrains.com/go/2018/10/19/refactorings-change-signature/)
+- [Refactorings in GoLand: Extract and Inline](https://blog.jetbrains.com/go/2018/10/26/refactorings-in-goland-extract-and-inline/)
+- [Refactorings in GoLand: Move refactoring](https://blog.jetbrains.com/go/2018/11/30/refactorings-in-goland-move-refactoring/)
+- [Refactorings in GoLand – Extract Interface](https://blog.jetbrains.com/go/2019/03/08/refactorings-in-goland-extract-interface/)
+- [Refactorings in GoLand: Rename refactoring](https://blog.jetbrains.com/go/2018/12/07/refactorings-in-goland-rename-refactoring/)
+- [Go templates made easy](https://blog.jetbrains.com/go/2018/12/14/go-templates-made-easy/)
+- []()
+
+1. 核心转储的ulimit设置在合适的范围。它的缺省值是0，意味着最大的核心文件大小是0。我通常在我的开发机器上将它设置成unlimited, 使用以下命令:
+```
+ulimit -c unlimited
+```
+
+2. 把GOTRACEBACK环境变量设置成 crash, 就可以用Ctrl+backslash才触发奔溃转储. 例子如
+```
+$ GOTRACEBACK=crash ./hello
+(Ctrl+\)
+```
+
+3. 另外个方法可以从一个运行的程序获得核心转储而不需要终止相应的进程。gcore可以生产核心文件而无需使运行中的程序退出。
+```
+$ ./hello &
+$ gcore 546 # 546 is the PID of hello.
+```
+
+4. ubuntu 安装gcore的方法. 
+```
+sudo apt install gdb
+```
+
+
+
 ### 指针
 - [Golang学习 - unsafe 包](https://www.cnblogs.com/golove/p/5909968.html)
 - [Golang学习 - reflect 包](https://www.cnblogs.com/golove/p/5909541.html)
