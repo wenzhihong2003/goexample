@@ -97,12 +97,39 @@ $ gcore 546 # 546 is the PID of hello.
 sudo apt install gdb
 ```
 
+### 数据库
+- [脉脉的mysql统计工具及通过统计手段处理mysql问题](https://mp.weixin.qq.com/s?__biz=MzIwNzEzNDkxNQ==&mid=2650968260&idx=1&sn=c76bf2c8734516b976ecd3e561f01e61&chksm=8ce13968bb96b07ea609da66e2dad8574110ae748fbf0bf7483217d3b3086d8519cfc7c41efd&mpshare=1&scene=21&srcid=0626ZizUAbLoEgQIWNfpYDi1#wechat_redirect)
+- [基于clickhouse分析和优化mysql的业务运行](https://mp.weixin.qq.com/s?__biz=MzIwNzEzNDkxNQ==&mid=2650968333&idx=1&sn=b9eadfac5ca27bd95e36d4087ff07fa9&chksm=8ce138a1bb96b1b7e018443fabe54db8314cebd7400aaa871ad6d7476b6397f892c11e455898&scene=0&xtrack=1#rd)
+- []()
+
+
+
+  
+ 
+
 
 
 ### 指针
 - [Golang学习 - unsafe 包](https://www.cnblogs.com/golove/p/5909968.html)
 - [Golang学习 - reflect 包](https://www.cnblogs.com/golove/p/5909541.html)
 - [golang手动管理内存](https://www.cnblogs.com/williamjie/p/9493104.html)
+- [图解Go语言内存分配](http://www.cnblogs.com/qcrao-2018/p/10520785.html)
+- [SlimTrie: 单机百亿文件的极致索引-设计篇](https://openacid.github.io/tech/algorithm/slimtrie-design/)
+- [战胜Btree单机百亿文件的极致索引-实现篇](https://mp.weixin.qq.com/s/QSnKJCtbZCbW0ymsvY8IFQ)
+- [Dependency injection in Golang using higher order functions](https://stein.wtf/posts/2019-03-12/inject/)
+- [When and Why to use a Least Frequently Used (LFU) cache with an implementation in Golang](https://ieftimov.com/post/when-why-least-frequently-used-cache-implementation-golang/)
+- [Publish-subscribe example with NATS and Go](https://mycodesmells.com/post/publish-subscribe-example-with-nats-and-go)
+- [Go JSON Cookbook](https://eli.thegreenplace.net/2019/go-json-cookbook/)
+- [Implement SQL database (driver) in 100 lines of Go](https://vyskocilm.github.io/blog/implement-sql-database-driver-in-100-lines-of-go/)
+- [A visual guide to Go Memory Allocator from scratch (Golang)](https://blog.learngoprogramming.com/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed)
+- [go-kit微服务：服务熔断](https://juejin.im/post/5c7e564651882546c846c101)
+- [Go webserver with gracefull shutdown](https://marcofranssen.nl/go-webserver-with-gracefull-shutdown/)
+- [Docker tips and tricks for your Go projects](https://marcofranssen.nl/docker-tips-and-tricks-for-your-go-projects/)
+- [Go interfaces and type assertions](https://marcofranssen.nl/go-interfaces-and-type-assertions/)
+- [Go advanced concurrency patterns: part 2 (timers)](https://blogtitle.github.io/go-advanced-concurrency-patterns-part-2-timers/)
+- [Write a Web Service with Go Plug-Ins](https://medium.com/quick-code/write-a-web-service-with-go-plug-ins-c0472e0645e6)
+- []()
+- []()
 - [How To Gracefully Close Channels?](https://www.jianshu.com/p/0ced713bd3a6)
 - [golang: 利用unsafe操作未导出变量-Pointer使用](https://www.jianshu.com/p/c828b234cabb)
 - [区块链持久存储之BoltDB源码解读系列教程（一）](https://www.jianshu.com/p/2b8a0cfdca2d)
@@ -162,11 +189,12 @@ sudo apt install gdb
 - [Go 垃圾回收](https://ninokop.github.io/2017/12/07/Go-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/)
 - [Go 内存管理](https://ninokop.github.io/2017/12/01/Go-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/)
 - [Sort排序总结](https://ninokop.github.io/2017/11/21/Sort%E6%8E%92%E5%BA%8F%E6%80%BB%E7%BB%93/)
-- []()
-- []()
+- [golang 并发map](https://github.com/orcaman/concurrent-map)
+- [golang 并发map, 可用代码生成来做到范型](https://github.com/OneOfOne/cmap)
+- [GenX: Generics For Go, Yet Again. go范型代码生成. 可以生成set](https://github.com/OneOfOne/genx)
 - [Flutter in action](https://book.flutterchina.club/)
-- []()
-- []()
+- [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s?__biz=MjM5MDUwNTQwMQ==&mid=2257483749&idx=1&sn=b6bca6ac5afab7ac6963871d41a51473&scene=21#wechat_redirect)
+- [深度解密Go语言之反射](https://mp.weixin.qq.com/s/Hke0mSCEa4ga_GS_LUp78A)
 - []()
 
 ### servicemesher
@@ -187,6 +215,11 @@ sudo apt install gdb
 - [Stateful locks in Go](https://scene-si.org/2016/10/12/stateful-locks-in-go/)
 - [learn-go-with-tests 中文](https://studygolang.gitbook.io/learn-go-with-tests)
 - [Hello，Go module proxy](https://tonybai.com/2018/11/26/hello-go-module-proxy/)
+- [Go advanced concurrency patterns: part 1](https://blogtitle.github.io/go-advanced-concurrency-patterns-part-1/)
+- [Go advanced concurrency patterns: part 2 (timers)](https://blogtitle.github.io/go-advanced-concurrency-patterns-part-2-timers/)
+- [Go: slices gotchas](https://blogtitle.github.io/go-slices-gotchas/)
+- [Some useful patterns](https://blogtitle.github.io/some-useful-patterns/)
+- []()
 - []()
 - []()
 - [Concurrency Patterns: Golang](https://medium.com/@thejasbabu/concurrency-patterns-golang-5c5e1bcd0833)
@@ -418,6 +451,8 @@ sudo apt install gdb
 - []()
 
 ### 学习golang
+- [typescriptify-golang-structs  A Golang JSON struct to TypeScript interface converter](https://github.com/tkrajina/typescriptify-golang-structs)
+- [struct2ts Generate Typescript classes/interfaces out of Go structs](https://github.com/OneOfOne/struct2ts)
 - [Golang堆栈解析](https://blog.csdn.net/erlib/article/details/44152485) [原文地址](https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html)
 - [golang 面试题](https://zhuanlan.zhihu.com/p/26972862)
 - [Golang精编100题](https://www.jianshu.com/p/f690203ff168)
@@ -660,6 +695,7 @@ sudo apt install gdb
 - []()
 
 ### 优秀blog
+- [字符编码详解](https://www.crifan.com/files/doc/docbook/char_encoding/release/htmls/index.html)
 - [Go and memory layout](https://syslog.ravelin.com/go-and-memory-layout-6ef30c730d51)  
 - [Seven steps to 100x faster](https://syslog.ravelin.com/making-something-faster-56dd6b772b83)  
 - [Goroutine shoot-out](https://syslog.ravelin.com/goroutine-shoot-out-e47585bebc1f)  
