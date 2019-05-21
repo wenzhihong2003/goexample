@@ -103,6 +103,16 @@ sudo apt install gdb
 - []()
 
 
+### go mod
+- [go mod代理和小技巧, 包括自建私服](https://www.cnblogs.com/xdao/p/go_mod.html)
+- [用 golang 1.11 module 做项目版本管理](https://www.jianshu.com/p/c5733da150c6)
+- [不一样的go语言-athens私仓安装](https://www.cnblogs.com/laud/p/athens.html)
+- [增加4 行代码，实现使用 Go module 在线上环境打包](https://blog.cyeam.com/golang/2018/09/18/go111-pack)
+- [Go module 如何发布 v2 及以上版本](https://blog.cyeam.com/go/2019/03/12/go-version)
+- [再探go modules：使用与细节](https://www.cnblogs.com/apocelipes/p/10295096.html)
+- [推荐一个超好用的Golang ORM&&数据库迁移包gobuffalo/pop](https://chenjingkun.com/article/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E8%B6%85%E5%A5%BD%E7%94%A8%E7%9A%84Golang%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB%E5%B7%A5%E5%85%B7gobuffalo-pop/)
+- []()
+
 
   
  
@@ -192,6 +202,8 @@ sudo apt install gdb
 - [golang 并发map](https://github.com/orcaman/concurrent-map)
 - [golang 并发map, 可用代码生成来做到范型](https://github.com/OneOfOne/cmap)
 - [GenX: Generics For Go, Yet Again. go范型代码生成. 可以生成set](https://github.com/OneOfOne/genx)
+- [pie 让你爱上golang的slice操作, 可自定义生成相应的类操作](https://github.com/elliotchance/pie)
+- [补充golang没有的数据结构, 如tree, hashmap, bibashmap, treemap等](https://github.com/emirpasic/gods)
 - [Flutter in action](https://book.flutterchina.club/)
 - [深度解密Go语言之关于 interface 的 10 个问题](https://mp.weixin.qq.com/s?__biz=MjM5MDUwNTQwMQ==&mid=2257483749&idx=1&sn=b6bca6ac5afab7ac6963871d41a51473&scene=21#wechat_redirect)
 - [深度解密Go语言之反射](https://mp.weixin.qq.com/s/Hke0mSCEa4ga_GS_LUp78A)
@@ -739,6 +751,27 @@ sudo apt install gdb
 - [leaf 和cocos creator 游戏实战（一）使用protobuf完成通讯](https://www.jianshu.com/p/1598bde2bb97)  
 - [golang fmt占位符](https://www.cnblogs.com/Csir/p/9309702.html)  
 
+- [看完这个，Java IO从此不在难](https://juejin.im/post/5b97e5f75188255c8d0fb0c0)
+- [Java11 HttpClient小试牛刀](https://juejin.im/post/5bae331b5188255c6140d96b)
+- [聊聊elasticsearch的ElectMasterService](https://juejin.im/post/5cd8237e6fb9a0320c5acf05)
+- [聊聊reactor-netty的AccessLog](https://juejin.im/post/5ca626fcf265da30ca24aa58)
+- [java并发编程系列：牛逼的AQS（上）](https://juejin.im/post/5cd0e2c76fb9a03236394729)
+- [java并发编程系列：牛逼的AQS（下）](https://juejin.im/post/5cd9241551882568047fa996)
+- [java并发编程系列：生产者-消费者模式](https://juejin.im/post/5cbd768df265da03af27d42f)
+- [java并发编程系列：wait/notify机制](https://juejin.im/post/5cb7e9adf265da0384128709)
+- [java并发编程系列：java并发编程背景知识](https://juejin.im/post/5cb6874ff265da038a146d96)
+- [Java 生态核心知识点整理](http://www.ityouknow.com/java/2019/03/25/java-knowledge.html)
+- [解读 JUC —— AQS 独占模式](https://juejin.im/post/5cd1d1876fb9a031eb58ae4d)
+- [再谈Java数据结构—分析底层实现与应用注意事项](https://juejin.im/post/5cde725451882525ff28eb09)
+- [Java并发中的内存模型](https://juejin.im/post/5cd795ce6fb9a032196eec7e)
+- [微服务系列 09」集中式配置中心原理与作用](https://juejin.im/post/5cde869c6fb9a07eaf2b5f61)
+- [Java集合与泛型中的几个陷阱，你掉进了几个](https://juejin.im/post/5cd98b8ef265da038932b403)
+- [Java 8 的一些新特性](https://juejin.im/post/5cde1800f265da035f6fffab)
+- [从JDK中，我们能学到哪些设计模式](https://juejin.im/post/5cd842d56fb9a0323070efc0)
+- [消息中间件选型分析 —— 从 Kafka 与 RabbitMQ 的对比来看全局](https://juejin.im/post/5cde695951882525a60de472)
+- [Java锁，真的有这么复杂吗？](https://juejin.im/post/5cde7d266fb9a07ea803991e)
+- [Java并发编程三volatile使用](https://blog.csdn.net/qq_36094018/article/details/90115448)
+- []()
 - [Java I/O模型从BIO到NIO和Reactor模式解析](http://blog.taohuawu.club/article/java-nio) 
 - [tornado配合celery及rabbitmq实现web request异步非阻塞](http://blog.taohuawu.club/article/python-tornado-rabbitmq-asynchronous-non-blocking) 
 - [Goroutine并发调度模型深度解析之手撸一个协程池](http://blog.taohuawu.club/article/goroutine-pool) 
